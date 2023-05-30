@@ -1,0 +1,21 @@
+version: '3.8'
+
+volumes:
+  phone:
+
+services:
+  db:
+    image: postgres:11
+    ports:
+      - "5432:5432"
+    volumes:
+      - phone:/data/db
+
+  app:
+    build:
+      context: ./
+    container_name: app
+    ports:
+      - "8088:8088"
+    depends_on:
+      - db
