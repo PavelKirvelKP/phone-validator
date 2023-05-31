@@ -16,7 +16,6 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.web.servlet.MockMvc;
 
-import com.kirvel.phonevalidator.exception.CountryNotFoundException;
 import com.kirvel.phonevalidator.exception.NotValidPhoneNumberFormatException;
 import com.kirvel.phonevalidator.service.CountryService;
 

@@ -15,7 +15,6 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import com.kirvel.phonevalidator.exception.CountryNotFoundException;
 import com.kirvel.phonevalidator.extractor.CountryCodeExtractor;
 import com.kirvel.phonevalidator.repository.CountryRepository;
 

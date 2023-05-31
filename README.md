@@ -1,5 +1,9 @@
 # Phone-validator
 
+## Information
+
+By default, application uses `MySQL database` with database phones and used default MySQL `username` and `password`
+
 ## How to use
 1) build .jar file:
     ```bash
@@ -18,12 +22,6 @@
     ```bash
      cd build/libs java -jar -Dspring.datasource.username=yourUserName -Dspring.datasource.password=yourPassword phone-validator-1.0.jar
     ```
-
-## Run used docker compose
-
-```bash
-  docker-compose up
-```
 
 ## Test report
 

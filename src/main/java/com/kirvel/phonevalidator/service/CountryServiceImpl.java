@@ -4,7 +4,6 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.kirvel.phonevalidator.exception.CountryNotFoundException;
 import com.kirvel.phonevalidator.extractor.CountryCodeExtractor;
 import com.kirvel.phonevalidator.repository.CountryRepository;
 

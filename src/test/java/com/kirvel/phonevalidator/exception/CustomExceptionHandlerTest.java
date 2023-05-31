@@ -15,8 +15,6 @@ import org.springframework.http.ResponseEntity;
 import com.kirvel.phonevalidator.exception.handler.CustomExceptionHandler;
 
 class CustomExceptionHandlerTest {
-	private static final String COUNTRY_ERROR_MESSAGE = "some error message";
-
 	private static final String NOT_VALID_PHONE_NUMBER_ERROR_MESSAGE = "some error message";
 
 	CustomExceptionHandler exceptionHandler;
@@ -24,6 +22,7 @@ class CustomExceptionHandlerTest {
 	@BeforeEach
 	void setup() {
 		MockitoAnnotations.openMocks(this);
+
 		exceptionHandler = new CustomExceptionHandler();
 	}
 
